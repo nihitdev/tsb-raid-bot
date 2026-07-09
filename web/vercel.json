@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/health",
+      "destination": "http://92.4.74.238:3000/health"
+    },
+    {
+      "source": "/invite",
+      "destination": "http://92.4.74.238:3000/invite"
+    }
+  ]
+}

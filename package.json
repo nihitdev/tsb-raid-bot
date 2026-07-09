@@ -1,0 +1,20 @@
+{
+  "name": "tsb-raid-bot",
+  "version": "2.0.0",
+  "description": "Discord raid backup bot for Roblox TSB with owner-only End Raid button",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
